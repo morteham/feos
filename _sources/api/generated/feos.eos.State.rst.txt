@@ -45,16 +45,18 @@ feos.eos.State
       ~State.enthalpy
       ~State.entropy
       ~State.gibbs_energy
+      ~State.grueneisen_parameter
       ~State.helmholtz_energy
       ~State.helmholtz_energy_contributions
       ~State.internal_energy
       ~State.is_stable
+      ~State.isenthalpic_compressibility
       ~State.isentropic_compressibility
       ~State.isothermal_compressibility
       ~State.joule_thomson
       ~State.ln_diffusion_reduced
       ~State.ln_phi
-      ~State.ln_phi_pure
+      ~State.ln_phi_pure_liquid
       ~State.ln_symmetric_activity_coefficient
       ~State.ln_thermal_conductivity_reduced
       ~State.ln_viscosity_reduced
@@ -66,9 +68,9 @@ feos.eos.State
       ~State.molar_gibbs_energy
       ~State.molar_helmholtz_energy
       ~State.molar_internal_energy
-      ~State.molar_volume
       ~State.partial_molar_enthalpy
       ~State.partial_molar_entropy
+      ~State.partial_molar_volume
       ~State.pressure
       ~State.pressure_contributions
       ~State.specific_enthalpy
@@ -82,6 +84,7 @@ feos.eos.State
       ~State.structure_factor
       ~State.thermal_conductivity
       ~State.thermal_conductivity_reference
+      ~State.thermal_expansivity
       ~State.thermodynamic_factor
       ~State.total_mass
       ~State.total_molar_weight

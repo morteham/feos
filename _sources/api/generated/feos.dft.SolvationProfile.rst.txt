@@ -36,6 +36,11 @@ feos.dft.SolvationProfile
       ~SolvationProfile.bulk
       ~SolvationProfile.chemical_potential
       ~SolvationProfile.density
+      ~SolvationProfile.dn_dmu
+      ~SolvationProfile.dn_dp
+      ~SolvationProfile.dn_dt
+      ~SolvationProfile.drho_dp
+      ~SolvationProfile.drho_dt
       ~SolvationProfile.edges
       ~SolvationProfile.external_potential
       ~SolvationProfile.functional_derivative
@@ -43,6 +48,7 @@ feos.dft.SolvationProfile
       ~SolvationProfile.grand_potential_density
       ~SolvationProfile.moles
       ~SolvationProfile.solvation_free_energy
+      ~SolvationProfile.solver_log
       ~SolvationProfile.temperature
       ~SolvationProfile.total_moles
       ~SolvationProfile.weighted_densities
